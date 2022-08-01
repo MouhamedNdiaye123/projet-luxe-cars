@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+/* HEADER STYLE */
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background-color: rgb(243, 241, 241);
+    padding: 10px;
+}
+.title h1{
+    text-transform: capitalize;
+    color: black;
+    font-size: 30px;
+}
+.title h1 span{
+    color: rgb(226, 17, 17);
+    text-transform: capitalize;
+}
+
+/* BARE DE NAVIGATION STYLE */
+
+.navbar ul li{
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 17px;
+    display: inline;
+    margin-right: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:hover{
+    color: rgb(226, 17, 17);
+}
+.btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* MAIN CONTAINER STYLE */
+
+.containers{
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    justify-content: space-evenly;
+}
+.container{
+    margin: 20px;
+}
+.container h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+}
+.container h2 span{
+    color: rgb(226, 17, 17);
+}
+.container p{
+    color: grey;
+}
+.container a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+    background-color: red;
+}
+.container a:hover{
+    background-color: black;
+    color: white;
+}
+.containers img {
+    width: 500px;
+    height: auto;
+}
+
+/* SECTION2 STYLE */
+
+.section2 h2{
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+    border-radius: 1px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 5;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.card{
+    margin: 20px;
+}
+.card img{
+    width: 370px;
+    height: auto;
+}
+.card h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.card h5{
+    color: rgb(226, 17, 17);
+    font-size: 20px;
+}
+.card a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(226, 17, 17);
+    padding: 10px 20px;
+}
+
+/* SECTION3 STYLE */
+
+.section3 h2{
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    border-radius: 1px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 5;
+    margin: 80px auto;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    margin: 80px auto;
+}
+.service {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.service img{
+    width: 50px;
+    height: auto;
+    color: red;
+}
+.service h4{
+    text-transform: capitalize;
+    font-size: 17px;
+}
+.service a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: red;
+    border: red 1px solid;
+    padding: 5px 10px;
+}
+
+/* SECTION 4 STYLE */
+
+.section4 h2{
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    border-radius: 1px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 5;
+    margin: 80px auto;
+}
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contact{
+    border: 1px solid rgb(30, 30, 30);
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin: 10px;
+    width: 40%;
+}
+.contact h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: black;
+}
+.contact input, textarea{
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+.contact input[type="submit"]{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    border: 1px solid rgb(10, 10, 10);
+}
+
+/* PIED DE PAGE STYLE */
+
+footer{
+    background-color: red;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 5px;
+}
